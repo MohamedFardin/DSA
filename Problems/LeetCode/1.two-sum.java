@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        // Nive Solution: 
+        // Naive Approach: 
         // Check with everyother number for target
         final int lengthOfInputArray = nums.length;
         // Loop for first number
@@ -31,6 +31,11 @@ class Solution {
         // If required we can have an optional output to handle this in real life scenarios
         throw new RuntimeException("A solution for each test is expected!");
     }
+
+    /*
+     * Other approaches:
+     * 1. Iterating only half of the array
+     */
 }
 // @lc code=end
 
